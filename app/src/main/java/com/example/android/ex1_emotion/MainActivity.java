@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     void init()
     {
+
         Tvemotion = (TextView)findViewById(R.id.tv_emotion);
         btnhappy = (Button)findViewById(R.id.btn_happy);
         btngloomy = (Button)findViewById(R.id.btn_gloomy);
