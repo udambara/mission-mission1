@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
     void init()
     {
-
         Tvemotion = (TextView)findViewById(R.id.tv_emotion);
         btnhappy = (Button)findViewById(R.id.btn_happy);
         btngloomy = (Button)findViewById(R.id.btn_gloomy);
@@ -35,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Tvemotion.setTextColor(color);
     }
     public void onClickGloomy(View view){
+
         String emotion = btngloomy.getText().toString();
         int color = ((ColorDrawable)btngloomy.getBackground()).getColor();
         Tvemotion.setText(emotion);
